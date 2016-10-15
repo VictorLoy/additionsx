@@ -1,0 +1,38 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctor Page</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link type="text/css" rel="stylesheet" href="index.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#sortable" ).sortable({
+      placeholder: "ui-state-highlight"
+    });
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+</head>
+<body>
+<h1>Doctor's Page</h1>
+<ol id="sortable"> 
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>Victor</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>Mamud</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>Tayad</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>bil</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>bal</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>him</li>
+  <li class="well" class="patient-names" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s" ></span>her</li>
+
+</ol> 
+ 
+</body>
+</html>
